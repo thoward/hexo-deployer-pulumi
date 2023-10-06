@@ -5,7 +5,7 @@ A plugin for the [Hexo](http://hexo.io/) static-site generator that uses Pulumi 
 
 ## Dependencies
 
-- Hexo 4.x
+- Hexo 6.x
 - Pulumi 3.x
 
 
@@ -32,8 +32,9 @@ deploy:
 
 - **bucket**: the name of the S3 bucket you want to use. Defaults to `hexo-website`
 - **region**: the AWS region to use. Defaults to `us-east-1`
-- **stack**: the name of the Pulumi stack to create. Defaults to `hexo-website`
-- **project**: the name of the Pulumi project to create. Defaults to 'public`
+- **project**: the name of the Pulumi project to create. Defaults to 'hexo-website`
+- **stack**: the name of the Pulumi stack to create. Defaults to `public`
+
 
 If you have installed Pulumi and the AWS command-line tool and provided your credentials via `aws configure`,
 this plugin will reuse those credentials.
