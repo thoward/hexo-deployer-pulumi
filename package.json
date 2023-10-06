@@ -1,0 +1,29 @@
+{
+  "name": "hexo-deployer-pulumi",
+  "version": "1.0.0",
+  "description": "A plugin for the Hexo static-site generator that uses Pulumi to publish to Amazon S3.",
+  "main": "index",
+  "keywords": [
+    "hexo",
+    "s3",
+    "aws",
+    "pulumi",
+    "deployer"
+  ],
+  "author": "Troy Howard <thoward37@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/thoward/hexo-deployer-pulumi.git"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "peerDependencies": {
+    "hexo": "4.x"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^5.0.0",
+    "@pulumi/pulumi": "^3.86.0",
+    "mime-types": "^2.1.35"
+  }
+}
