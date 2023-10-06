@@ -1,6 +1,6 @@
 {
   "name": "hexo-deployer-pulumi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A plugin for the Hexo static-site generator that uses Pulumi to publish to Amazon S3.",
   "main": "index",
   "keywords": [
