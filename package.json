@@ -13,7 +13,7 @@
   "author": "Troy Howard <thoward37@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "http://github.com/thoward/hexo-deployer-pulumi.git"
+    "url": "git+ssh://git@github.com/thoward/hexo-deployer-pulumi.git"
   },
   "license": {
     "type": "MIT"
