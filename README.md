@@ -24,8 +24,8 @@ deploy:
   type: pulumi
   bucket: <S3 bucket>
   region: <AWS region>
-  stack: <Pulumi stack>
   project: <Pulumi project>
+  stack: <Pulumi stack>
 ```
 
 **Options:**
