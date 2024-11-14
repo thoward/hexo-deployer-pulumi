@@ -32,7 +32,7 @@ deploy:
 
 - **bucket**: the name of the S3 bucket you want to use. Defaults to `hexo-website`
 - **region**: the AWS region to use. Defaults to `us-east-1`
-- **project**: the name of the Pulumi project to create. Defaults to 'hexo-website`
+- **project**: the name of the Pulumi project to create. Defaults to `hexo-website`
 - **stack**: the name of the Pulumi stack to create. Defaults to `public`
 
 
